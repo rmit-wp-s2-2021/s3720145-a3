@@ -1,0 +1,78 @@
+
+.header_div {
+    text-align: center;
+}
+
+h1 {
+    padding-left: 7.5%;
+    font-family: "Open Sans";
+    font-weight: bold;
+    color: #0D98BA;
+}
+
+.city_container {
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Open Sans";
+}
+
+.city_box{
+    margin: 20px;
+    width: 400px;
+    background: #c2ac03;
+    padding:20px; 
+    border-radius:10px;
+    color:#fff;
+    vertical-align: auto;
+    font-size:18px;
+    box-shadow: 8px 8px 16px 5px rgba(0,0,0,0.2);
+}
+
+.report_container {
+    border: #E0E0E0 1px solid;
+    padding: 20px 40px 40px 40px;
+    border-radius: 2px;
+    margin: 0 auto;
+    color: #929292;
+}
+
+.weather_icon {
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.description_and_temperature {
+    color: #212121;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+span.min_temperature {
+    margin-left: 15px;
+    color: #d3d3d3;
+}
+
+.time {
+    line-height: 25px;
+}
+
+.link_div {
+    text-align: center;
+}
+
+a {
+    font-size: 30px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    color: #0D98BA;
+}
